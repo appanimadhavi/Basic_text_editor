@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    background-color:rgb(153, 242, 151);
+}
+.a{
+   
+    height:50px;
+    width:550px;
+    border:solid 2px black;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 420px;
+    margin-bottom: 20px;
+    margin-top: 30px;  
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 530px;
+}
+input[type=number]{
+    
+    font-size:25px;
+    width:50px;
+}
+button{
+    cursor:pointer;
+    font-size:27px;
+
+}
+#textarea{
+    margin: 300px;
+    margin-top: 0px;
+    width:820px;
+    height:500px;    
+}
+button:hover{
+    background-color: rgb(97, 94, 94);
+}
+button:active{
+    background-color: rgb(12, 80, 226);
+}
+

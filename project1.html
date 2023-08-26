@@ -1,0 +1,56 @@
+<doctype html>
+<head>
+<title>Basic Text Editor</title>
+<link rel="stylesheet" href="project1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <h1>BASIC TEXT EDITOR</h1>
+    <div class="a">
+        <div class="col1">
+            <input type="number" id="font-size" min="1" max="200" value="20" onchange='m1(this)'>
+           
+        </div>
+        <div class="col2">
+            <button type="button" onclick="m2(this)" >
+            <i class="fa-solid fa-bold">
+            </i>
+            </button>
+            <button type="button" onclick="m3(this)">
+            <i class="fa-solid fa-italic">
+            </i>
+            </button>
+            <button type="button" onclick="m4(this)">
+            <i class="fa-solid fa-underline">
+            </i>
+            </button>
+            <button type="button" onclick="m81(this)">
+                A
+            </button>
+            <button type="button" onclick="m82(this)">
+                a
+            </button>
+        </div>
+        <div class="col3">
+            <button type="button" onclick="m5(this)">
+                <i class="fa-solid fa-align-left"></i>
+            </button>
+            <button type="button" onclick="m6(this)">
+                <i class="fa-solid fa-align-center"></i>
+            </button>
+            <button type="button" onclick="m7(this)">
+                <i class="fa-solid fa-align-right"></i>
+            </button>
+        </div>
+        <div class="col4">
+                
+            <button type="button" onclick="m9(this)">
+                Reset
+            </button>    
+        </div>
+        </div>
+    <div class="col5">
+        <textarea id="textarea" placeholder="Enter your text here"></textarea>
+    </div>
+    <script type="text/javascript" src="project1.js"></script>
+</body>
